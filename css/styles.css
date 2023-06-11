@@ -1,0 +1,56 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.banner {
+   background-image: url("../img/tms.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vh;
+   padding: 20px;
+}
+.menu {
+   display: inline-flex;
+   border-spacing: 10px;
+}
+#letras {
+   position: relative;
+   left: 230%;
+   color: white
+}
+.banner img {
+   padding: 10px;
+}
+.cuerpo {
+   color: rgba(255, 255, 255, 0.891);
+}
+figcaption {
+   color: rgba(255, 255, 255, 0.545);
+   padding: 5px;
+}
+
+.mayor {
+   font-weight: bold;
+   background-color: red;
+   padding: 5px;
+   color: aliceblue;
+}
+.botones {
+   border-spacing: 10px;
+   width: 150px;
+   font-family: Arial;
+}
+#bo1 {
+   padding: 5px;
+   color: white;
+   background-color: red;
+}
+#bo2 {
+   padding: 5px;
+   color: white;
+   background-color: rgba(0, 0, 0, 0.5);
+}
